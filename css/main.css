@@ -1,0 +1,340 @@
+*{margin:0;padding:0;outline:0;}
+
+body{font-family: HelveticaNeue, arial; font-size:16px; line-height:150%;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+
+ul li{list-style:none;}
+a{
+	text-decoration:none;
+	transition:0.5s;
+	-webkit-transition:0.5s;
+}
+a:hover{text-decoration:underline;}
+
+/*-------Main CSS start--------*/
+.mid_container{width:73.75%; margin:0 auto;}
+.fix{overflow:hidden;}
+
+#wrapper{
+	width:1920px;
+}
+#header {
+	height: 600px;
+	border-top: 10px solid #2ECC71;
+	width: 100%;
+	background: url(../images/top_cover_pic.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: fixed;
+}
+/*=====Responsive Menu Bar Start======*/
+.responsive_menu {
+	display:none;
+}
+.home {
+	float: left;
+	margin-left: 2%;
+	font-size: 240%;
+}
+.home a{
+	color: #20B85D;
+}
+.menu_slide {
+	position: relative;
+	text-align: left;
+	float: right;
+	top: 0px;
+	right: -31px;
+	display:none;
+}
+.menu {
+	position: absolute;
+	font-size: 240%;
+	color: #20B85D;
+	right: 2%;
+	cursor: pointer;
+}
+.menu i {
+	float: right;
+	position: relative;
+	z-index: 50;
+}
+.menu_slide li {border-bottom:1px solid #2ECC71;}
+.menu_slide li:last-child {border-bottom:none;}
+.menu_slide li a {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: #2ECC71;
+	padding: 10px 27px 10px 10px;
+	background: rgba(49,49,51,0.9);
+	display: block;
+	transition: 0.1s;
+	-webkit-transition: 0.1s;
+	-moz-transition: 0.1s;
+}
+.menu_slide li a:hover {
+	background: rgba(0,255,18,1);
+	color: #fff;
+}
+/*=====Responsive Menu Bar End======*/
+.main_head {
+	width: 59.375%;
+	margin: 0 auto;
+	padding-top: 170px;
+	color: #fff;
+}
+.main_head h1 {
+	font-family: Pacifico;
+	font-size: 60px;
+	margin-bottom: 70px;
+}
+
+.main_head p {
+	font-size: 24px;
+	padding-bottom: 25px;
+	line-height: 150%;
+}
+.main_head ul{}
+.main_head ul li {
+	float: left;
+	margin-right: 15px;
+}
+.main_head ul li a {
+	padding: 15px;
+	background-color: #000000;
+	color: #B09D94;
+	font-size: 25px;
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	display: block;
+	text-align: center;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+}
+.main_head ul li a:hover{background-color:#2ECC71;color:#fff;}
+.main_head ul li a i{}
+/*-------------- Header End------------------*/
+#relative_content{
+	z-index:5;
+	top:610px;
+	position:relative;
+	
+}
+
+#article_sec {
+	padding: 60px 0px;
+	text-align: center;
+	background:url(../images/bg_article.png);
+	
+	
+}
+.post_article {
+	margin-right: 12.8%;
+	float: left;
+	width: 24.75%;
+}
+.post_article:last-child{margin-right:0;}
+.post_article a {
+	background: #2ECC71;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	font-size: 50px;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	padding: 25px;
+}
+.post_article a i {}
+.post_article h2 {
+	padding-top: 30px;
+	padding-bottom: 25px;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: Raleway-SemiBold;
+}
+.post_article p {
+	/*color: #848484;*/
+	color: #563e24;
+	font-size: 17px;
+}
+/*-------------- article End------------------*/
+#get_updates{
+	/*background: #E3E3E3;*/
+	background: url(../images/bg_article_2.png);
+}
+.get_padding {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.get_notify {
+	width: 39.6%;
+	float: left;
+	margin-right: 25%;
+}
+.get_notify h2 {
+	font-family: Raleway-SemiBold;
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+.get_notify p {
+	color: #848484;
+	padding-bottom: 25px;
+	line-height: 150%;
+}
+.email_address {
+	width: 100%;
+}
+.get_notify input[type="email"] {
+	padding: 0 15px;
+	width: 50%;
+	font-size: 16px;
+	border: 1px solid #646464;
+	border-right: none;
+	border-radius: 15px 0 0 15px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	height: 48px;
+}
+.get_notify input[type="submit"] {
+	padding: 0 40px;
+	font-size: 18px;
+	font-family: Raleway-SemiBold;
+	color: #fff;
+	background: #2ECC71;
+	border: 1px solid #2ECC71;
+	font-weight: bold;
+	margin-left: -0.1%;
+	border-radius: 0 15px 15px 0;
+	cursor: pointer;
+	height: 50px;
+	position: absolute;
+	float: right;
+}
+.get_notify input[type="submit"]:hover {
+	background: #3DDB80;
+	color: #f9f9f9f9;
+}
+.video_notify {
+	width: 500px;
+	height: 308px;
+	border-radius: 20px;
+	float: right;
+	background:#000;
+}
+.video_notify img {
+	width: 100%;
+	
+}
+/*-------------- Get Updates section End------------------*/
+#footer_top {
+	padding: 60px 0;
+	background: #fff;
+	text-align: center;
+}
+
+.blockquote {
+	width: 830px;
+	margin: 0 auto;
+}
+.blockquote p {
+	font-size: 18px;
+	color: #848484;
+}
+.profile_pic {
+	padding-bottom: 45px;
+}
+.profile_pic h3 {
+	font-family: Raleway-SemiBold;
+	padding: 25px 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+.profile_pic ul {
+	display: inline-block;
+}
+.profile_pic ul li {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background:#7BDCA8;
+	margin-right: 5px;
+	overflow:hidden;
+}
+.profile_pic ul li a{
+}
+
+.profile_pic ul li a img{
+	width: 50px;
+	height: 50px;
+}
+.profile_pic ul li a:hover img{
+	opacity:0.3;
+}
+.social_link{}
+.social_link h2{
+	font-size: 24px;
+	font-weight: bold;
+	font-family: Raleway-SemiBold;
+}
+.social_link p {
+	color: #848484;
+	padding: 20px 0;
+	font-size: 16.5px;
+}
+.social_link ul {
+	display: inline-block;
+}
+.social_link ul li{
+	float:left;
+	margin-right:15px;
+}
+.social_link ul li:last-child{margin-right:0;}
+.social_link ul li a{}
+.social_link ul li a i {
+	font-size: 20px;
+	background: #D4D4D4;
+	border-radius: 50%;
+	padding: 10px;
+	height: 20px;
+	width: 20px;
+	color: #fff;
+}
+.social_link ul li a img {
+	background: #d4d4d4;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	color: #fff;
+}
+.social_link ul li a i:hover{background:#62d995;}
+.social_link ul li a img:hover{background:#62d995;}
+.gimg{}
+/*-------------- Footer Top section End------------------*/
+#footer {
+	background: #e3e3e3;
+	padding: 60px 0;
+	text-align:center;
+}
+.nav_section {
+}
+.nav_section ul {
+	display: inline-block;
+}
+.nav_section ul li {
+	float: left;
+	margin-right: 35px;
+}
+.nav_section ul li:last-child {
+	margin-right: 0;
+}
+.nav_section ul li a {
+	color: #848484;
+	display: inline-block;
+}
+.nav_section ul li a:hover {
+	color: #2A2A2A;
+}
+
+/*-------------- Footer section End------------------*/

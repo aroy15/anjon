@@ -1,0 +1,304 @@
+@media only screen and (min-width : 1677px) and (max-width:1827px){
+.post_article p {
+	padding: 0 43px;
+}
+}
+@media only screen and (min-width : 1367px) and (max-width:1919px){
+	#wrapper{
+		width:100%;
+	}
+#header {
+    height: 500px;
+}
+.main_head {
+	padding-top: 150px;
+}
+
+#relative_content {
+	top: 510px;
+}
+#article_sec {
+	padding: 45px 0px;
+}
+.get_notify {
+	width: 455px;
+	margin-right: 4.34%;
+}	
+
+.profile_pic ul li {
+	width: 40px;
+	height: 40px;
+}
+.profile_pic ul li a img{
+	width: 40px;
+	height: 40px;
+}
+}
+@media only screen and (max-width : 1366px){
+	#wrapper{
+		width:100%;
+	}
+#header {
+    height: 426.67px;
+}
+.main_head {
+	padding-top: 105px;
+}
+
+#relative_content {
+	top: 436.67px;
+}
+#article_sec {
+	padding: 45px 0px;
+}
+.get_notify {
+	width: 45.4%;
+	margin-right: 4.34%;
+}	
+
+.profile_pic ul li {
+	background:#7BDCA8;
+	width: 40px;
+	height: 40px;
+}
+.profile_pic ul li a img{
+	width: 40px;
+	height: 40px;
+	
+}
+
+
+#footer {
+	padding: 55px 0 45px 0;
+}
+}
+
+@media only screen and (min-width : 1280px) and (max-width : 1365px){
+	#wrapper{
+		width:100%;
+	}
+#header {
+    height: 400px;
+}
+.main_head {
+	padding-top: 6.4%;
+}
+#relative_content {
+	top: 410px;
+}
+.get_notify {
+	width: 44%;
+	margin-right: 6.34%;
+}	
+.get_notify input[type="email"] {
+    width: 250px;
+}
+.video_notify {
+	width: 465px;
+	height: 286.44px;
+}
+
+.profile_pic ul li, .profile_pic ul li a img {
+	width: 35px;
+	height: 35px;
+}
+}
+
+@media only screen and (min-width : 960px) and (max-width : 1279px){
+#header {
+	height: 333.333px;
+}
+#relative_content {
+	top: 343.333px;
+}
+.main_head {
+	padding-top: 60px;
+	width: 73.375%;
+}
+.mid_container{width:89.75%;}
+#article_sec {
+	padding: 40px 0px;
+}
+.post_article {
+	margin-right: 9.8%;
+	width: 26.75%;
+}
+.get_notify input[type="email"] {
+    width: 65%;
+}
+.get_notify input[type="submit"] {
+    padding: 0 2.5%;
+}
+.video_notify {
+	width: 433px;
+	height: 266.728px;
+}
+
+.profile_pic ul li, .profile_pic ul li a img {
+	width: 35px;
+	height: 35px;
+}
+}
+@media only screen and (min-width : 800px) and (max-width : 959px){
+.main_head {
+	width: 70.375%;
+}
+.mid_container {
+	width: 91.75%;
+}
+.post_article {
+	margin-right: 7.6%;
+	width: 28.25%;
+}
+.post_article h2 {
+	font-size: 19px;
+}
+.post_article p {
+	font-size: 16px;
+}
+.get_notify input[type="submit"] {
+	padding: 0 2.5%;
+}
+.get_notify input[type="email"] {
+	font-size: 13px;
+}
+.video_notify {
+	width: 368px;
+	height: 227px;
+}
+.blockquote {
+	width: 737px;
+}
+.blockquote p {
+	font-size:16px;
+}
+.profile_pic ul li, .profile_pic ul li a img {
+	width: 29px;
+	height: 29px;
+}
+}
+@media only screen and (max-width : 799px){
+	#wrapper{width:100%}
+#header {
+	height: 300px;
+	position:unset;
+}
+.responsive_menu {
+	display:block;
+}
+.main_head {
+	width: 79.375%;
+	padding-top: 45px;
+}
+.main_head p {
+	line-height: 120%;
+}
+.main_head h1 {
+	margin-bottom: 47px;
+}
+#relative_content {
+	top: 0;
+}
+.mid_container {
+	width: 87%;
+}
+#article_sec {
+	padding: 22px 0px;
+}
+.post_article {
+	width: 333.85px;
+	margin: 0 auto;
+	float:none;
+	margin-bottom:50px;
+}
+.post_article:last-child {
+	margin: auto;
+	margin-bottom:0;
+}
+.post_article h2 {
+	padding-top: 24px;
+	padding-bottom: 15px;
+}
+.get_notify {
+	width: 100%;
+	float: none;
+	margin-bottom: 50px;
+	text-align: justify;
+}
+.get_notify h2 {
+	text-align: center;
+}
+.get_notify input[type="submit"] {
+    padding: 0 3.5%
+}
+.video_notify {
+    width: 80%;
+    height: 280px;
+	float: none;
+	margin: 0 auto;
+}
+.blockquote {
+	width: 100%;
+}
+.blockquote p {
+	font-size: 16px;
+}
+.profile_pic ul li, .profile_pic ul li a img {
+	width: 29px;
+	height: 29px;
+	margin-bottom: 5px;
+}
+.profile_pic ul li, .profile_pic ul li a img {
+	width: 40px;
+	height: 40px;
+}
+.nav_section ul li {
+	margin-right: 19px;
+}
+}
+@media only screen and (max-width : 532px){
+.main_head h1 {
+	margin-bottom: 32px;
+	font-size:45px;
+}
+.main_head p {
+	font-size: 20px;
+}
+.post_article {
+	width: 257.85px;
+	margin: 0 auto;
+	float: none;
+	margin-bottom: 50px;
+}
+.social_link ul li {
+	margin-right: 7px;
+}
+.nav_section ul {
+	width: 240px;
+}
+.nav_section ul li {
+	margin-right: 20px;
+	margin-top: 15px;
+}
+}
+@media only screen and (max-width : 560px){
+.video_notify {
+    width: 100%;
+}
+.get_notify input[type="email"] {
+    width: 61%;
+    font-size: 14px;
+}
+}
+@media only screen and (max-width : 319px){
+.social_link ul li a i {
+	font-size: 17px;
+	padding: 8px;
+	height: 17px;
+	width: 17px;
+}
+.social_link ul li a img {
+	height: 32px;
+	width: 32px;
+}
+}

@@ -1,0 +1,28 @@
+/*@import url('https://fonts.googleapis.com/css?family=Pacifico|Raleway:600');
+/*font-family: 'Pacifico', cursive;
+font-family: Raleway-SemiBold;*/
+
+
+
+@font-face{
+	font-family:"HelveticaNeue";
+	src:url("../fonts/helveticaneue.eot") format("eot"),
+	url("../fonts/helveticaneue.woff") format("woff"),
+	url("../fonts/helveticaneue.ttf") format("truetype"),
+	url("../fonts/helveticaneue.svg#helveticaneue") format("svg");
+}
+@font-face{
+	font-family:"Pacifico";
+	src:url("../fonts/pacifico.eot") format("eot"),
+	url("../fonts/pacifico.woff") format("woff"),
+	url("../fonts/pacifico.ttf") format("truetype"),
+	url("../fonts/pacifico.svg#Pacifico-regular") format("svg");
+}
+
+@font-face{
+	font-family:"Raleway-SemiBold";
+	src:url("../fonts/raleway-semibold.eot") format("eot"),
+	url("../fonts/raleway-semibold.woff") format("woff"),
+	url("../fonts/Raleway-SemiBold.ttf") format("truetype"),
+	url("../fonts/raleway-semibold.svg#raleway-semibold") format("svg");
+}
